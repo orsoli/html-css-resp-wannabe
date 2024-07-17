@@ -11,6 +11,12 @@
 /* tablet screen, from 768px and below   */
 @media screen and (max-width: 768px) {
     .container{
-        width: var(--tablet);
+        width: auto;
+        max-width: var(--tablet);
     }   
+}
+
+/* mobile screen, from 576px and below  */
+@media screen and  {
+    
 }
