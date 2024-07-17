@@ -10,6 +10,7 @@
 
 /* tablet screen, from 768px and below   */
 @media screen and (max-width: 768px) {
+    /* change the width of the container to max-width  */
     .container{
         width: auto;
         max-width: var(--tablet);
@@ -17,6 +18,27 @@
 }
 
 /* mobile screen, from 576px and below  */
-@media screen and  {
+@media screen and (max-width: 576px) {
+    /* change row display in block  */
+    .row{
+        display: block;
+    }
+
+    /* change width and added 3rem space with padding in all col sections  */
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+        padding-bottom: 3rem;
+    }
     
+    /* on section steps and why-us eleminate margin */
+    .steps, .why-us{
+        margin: 0;
+    }
+
+   /* on why-us section chenge the bg-color and added padding top  */
+    .why-us{
+        padding: 3rem 0;
+        background-color: var(--mob-whyus-bg);
+    }
 }
+
