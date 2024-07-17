@@ -1,0 +1,16 @@
+:root{
+    /* colors  */
+    --mob-whyus-bg: black;
+
+    /* dimesions  */
+    --bonus: 1160px;
+    --tablet: 768px;
+    --mobile: 576px;
+}
+
+/* tablet screen, from 768px and below   */
+@media screen and (max-width: 768px) {
+    .container{
+        width: var(--tablet);
+    }   
+}
