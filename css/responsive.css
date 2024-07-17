@@ -8,21 +8,12 @@
     --mobile: 576px;
 }
 
-/* bonus screen from 1160px and below  */
+/* bonus screen includs tablet from 1160px and below  */
 @media screen and (max-width: 1160px) {
     /* change the width of the container to max-width  */
     .container{
         width: auto;
         max-width: var(--bonus);
-    }   
-}
-
-/* tablet screen, from 768px and below   */
-@media screen and (max-width: 768px) {
-    /* change the width of the container to max-width  */
-    .container{
-        width: auto;
-        max-width: var(--tablet);
     }   
 }
 
