@@ -23,7 +23,7 @@
     }
 
     /* change width and added 3rem space with padding in all col sections  */
-    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+    .row .col{
         width: 100%;
         padding-bottom: 3rem;
     }
